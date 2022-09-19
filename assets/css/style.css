@@ -1,0 +1,42 @@
+/*
+/// -------------------------------------------------------------------------------------------------------
+/// :: Igrejei - Developed by Hebert Dias & Sylvio Lima | 13/09/2022 - 18:30.
+/// :: WARNING: This computer program is protected by copyright law and international treaties.
+/// :: Unauthorized duplication or distribution of this program, or any portion of it, may result
+/// :: in severe civil or criminal penalties, and will be prosecuted to the maximum extent possible
+/// :: under the law.
+/// ::
+/// :: v.1.0 - 13/09/2022 - Implementation.
+/// -------------------------------------------------------------------------------------------------------
+*/
+
+@import url(reset.css);
+
+:root {
+  --Light: #F0F0F2;
+  --Yellow1: #F29A2E;
+  --Yellow2: #F28627;
+  --Yellow3: #F26B1D;
+  --Yellow4: #F2490C;
+  --Dark: #010006;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto-Regular', sans-serif;
+  color: var(--Nero);
+  background: var(--Azure);
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container > div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
